@@ -7,15 +7,34 @@ response = requests.get(url)
 
 data = response.json()
 
+# Extract data from current and location
 current_data = data["current"]
 location_data = data["location"]
 
+# Normalize nested json to flatten the data by creating dataframe
 current_df = pd.json_normalize(
     current_data,
     sep="_",
 )
 
+# Merging location data into current weather data
 current_df["location_name"] = location_data["name"]
 current_df["location_region"] = location_data["region"]
 current_df["location_country"] = location_data["country"]
+
+# Loading dataframe into csv file
 current_df.to_csv("current_weather.csv", index=False)
+
+#Extracting forecast data
+forecast_data = data["forecast"]["forecastday"]
+
+# Normalize the data into dataframe
+forecast_df = pd.json_normalize(
+    forecast_data,
+    sep="_"
+)
+
+# Loading forecast dataframe to csv file
+forecast_df.to_csv("forecast_weather.csv", index=False)
+
+
