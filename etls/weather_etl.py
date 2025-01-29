@@ -1,7 +1,6 @@
 import pandas as pd
 import json
 import requests
-from pandas.core.interchange.dataframe_protocol import DataFrame
 
 from utils.const import SECRET, selected_current_columns, selected_forecast_columns
 
@@ -66,9 +65,10 @@ def transform_forecast_data(forecast_df: pd.DataFrame):
 
 
 # Loading transformed current dataframe to csv
-def load_transformed_current_to_csv(current_updated_df: pd.DataFrame):
-    current_updated_df.to_csv("current_updated_weather.csv", index=False)
+def load_transformed_current_to_csv(current_updated_df: pd.DataFrame, path: str):
+    current_updated_df.to_csv(path, index=False)
+
 
 # Loading transformed forecast dataframe to csv
-def load_transformed_forecast_to_csv(forecast_updated_df: pd.DataFrame):
-    forecast_updated_df.to_csv("forecast_updated_weather.csv", index=False)
+def load_transformed_forecast_to_csv(forecast_updated_df: pd.DataFrame, path: str):
+    forecast_updated_df.to_csv(path, index=False)

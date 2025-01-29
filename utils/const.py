@@ -6,6 +6,9 @@ parser.read(os.path.join(os.path.dirname(__file__), '../config/config.conf'))
 
 SECRET = parser.get('api_keys', 'api_key')
 
+INPUT_PATH = parser.get('file_paths', 'input_path')
+OUTPUT_PATH = parser.get('file_paths', 'output_path')
+
 selected_current_columns = [
 "last_updated", "temp_c", "temp_f", "wind_mph", "humidity",
     "condition_text", "location_name", "location_region", "location_country"
