@@ -19,3 +19,6 @@ AWS Glue: Data cataloging and ETL jobs.
 Amazon Athena: SQL-based data transformation.
 Amazon Redshift: Data warehousing and analytics
 Tableau: Data visualization
+
+![Weather](https://github.com/user-attachments/assets/c1acf494-81ea-41dd-9850-067d55a3f09d)
+
