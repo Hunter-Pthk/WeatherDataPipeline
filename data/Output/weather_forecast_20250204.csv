@@ -1,0 +1,15 @@
+date,day_maxtemp_c,day_mintemp_c,day_avgtemp_c,day_totalprecip_mm,day_avghumidity,day_condition_text,day_uv,day_air_quality_aqi_data,astro_sunrise,astro_sunset,astro_moon_phase
+2025-02-04,-1.2,-8.6,-4.1,0.0,78,Overcast ,0.5,,07:31 AM,05:34 PM,Waxing Crescent
+2025-02-05,-3.0,-8.9,-6.1,0.0,79,Overcast ,0.4,,07:29 AM,05:35 PM,First Quarter
+2025-02-06,-0.1,-4.0,-1.9,0.0,88,Overcast ,0.1,,07:28 AM,05:36 PM,Waxing Gibbous
+2025-02-07,-0.7,-5.7,-2.0,0.03,76,Partly Cloudy ,0.4,,07:27 AM,05:38 PM,Waxing Gibbous
+2025-02-08,-2.5,-7.7,-4.9,7.06,87,Moderate or heavy snow showers,0.0,,07:26 AM,05:39 PM,Waxing Gibbous
+2025-02-09,-1.6,-6.7,-4.4,1.78,87,Light snow,1.0,null,07:24 AM,05:40 PM,Waxing Gibbous
+2025-02-10,-1.8,-9.2,-5.4,0.01,86,Partly Cloudy ,2.0,null,07:23 AM,05:42 PM,Waxing Gibbous
+2025-02-11,-3.1,-5.5,-4.5,0.07,87,Light freezing rain,1.0,null,07:22 AM,05:43 PM,Waxing Gibbous
+2025-02-12,-3.9,-11.0,-6.9,1.51,88,Heavy snow,1.0,null,07:20 AM,05:45 PM,Full Moon
+2025-02-13,-1.8,-10.8,-7.4,0.0,86,Sunny,2.0,null,07:19 AM,05:46 PM,Waning Gibbous
+2025-02-14,0.5,-9.7,-4.5,0.03,87,Partly Cloudy ,2.0,null,07:17 AM,05:47 PM,Waning Gibbous
+2025-02-15,-4.2,-10.2,-6.2,0.13,87,Light snow,1.0,null,07:16 AM,05:49 PM,Waning Gibbous
+2025-02-16,-1.5,-8.2,-4.6,0.11,86,Light snow,1.0,null,07:14 AM,05:50 PM,Waning Gibbous
+2025-02-17,-2.0,-12.4,-7.1,0.01,86,Cloudy ,1.0,null,07:13 AM,05:51 PM,Waning Gibbous
